@@ -19,9 +19,14 @@ struct SwiftUIView: View {
     
     
     var body: some View {
-        
-        Text(GlobalVariables.resultFromAPI)
-}
+        Text("Please Scan This Code At The Entrance Of The Facility")
+            .font(.title)
+            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        Spacer()
+        QrCodeView(data: SendData())
+        Spacer()
+        Spacer()
+    }
 }
 
 struct SwiftUIView_Previews: PreviewProvider {

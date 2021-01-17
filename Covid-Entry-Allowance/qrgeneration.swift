@@ -19,7 +19,7 @@ struct QrCodeView: View {
     var body: some View {
         Image(uiImage: generateQrCode(data: data))
             .interpolation(.none)
-            .resizable().frame(width: 150, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            .resizable().frame(width: 250, height: 250, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         
     }
     func generateQrCode(data: String) ->  UIImage {
