@@ -27,7 +27,14 @@ struct ButtonView: View {
     var displayedUse: String
     var execution: String
     
+    
+    
     var body: some View {
+        let screenSize = UIScreen.main.bounds
+        let screenWidth = screenSize.width
+        let screenHeight = screenSize.height
+        let buttonWidth = screenWidth - 20
+        let buttonHeight = screenHeight / 8 
         VStack {
             NavigationLink(
                 destination: SwiftUIView(execution: ""), tag : 1, selection: $action) {
@@ -43,11 +50,11 @@ struct ButtonView: View {
         })
         .font(.title)
         .padding(30)
-        
+        .frame(width: buttonWidth, height: buttonHeight, alignment: .center)
         .background(Color.green)
         .foregroundColor(Color.white)
         .cornerRadius(20)
-    }
+        }.padding(5)
     }
 }
 
