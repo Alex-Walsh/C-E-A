@@ -41,8 +41,8 @@ struct ContentView: View {
                 ButtonView(displayedUse: "No To Everything", execution: "No Symptoms Or Contact")
                 
                     Spacer()
-                QrCodeView(data: SendData())
-                Spacer()
+           
+            
             }
             }
             

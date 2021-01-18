@@ -35,7 +35,7 @@ struct ButtonView: View {
             }
               
         Button(action: {
-            SendData()
+            
             self.action = 1 
             
         }, label: {
@@ -43,6 +43,7 @@ struct ButtonView: View {
         })
         .font(.title)
         .padding(30)
+        
         .background(Color.green)
         .foregroundColor(Color.white)
         .cornerRadius(20)
