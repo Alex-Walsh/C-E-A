@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE0BED3C25A94DB10041D804 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0BED3B25A94DB10041D804 /* ButtonStyles.swift */; };
+		CE1F440B25B50CE200F0F7FE /* dateDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F440A25B50CE200F0F7FE /* dateDisplay.swift */; };
+		CE1F440E25B5120500F0F7FE /* findDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F440D25B5120500F0F7FE /* findDate.swift */; };
 		CE268CB825AB6B7400EBAF2F /* qrpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE268CB725AB6B7400EBAF2F /* qrpage.swift */; };
 		CE46262425AAA31500505867 /* qrgeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46262325AAA31500505867 /* qrgeneration.swift */; };
 		CE55913325B3EE9D00DCBF94 /* stringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE55913225B3EE9D00DCBF94 /* stringTest.swift */; };
@@ -25,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		CE0BED3B25A94DB10041D804 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		CE1F440A25B50CE200F0F7FE /* dateDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateDisplay.swift; sourceTree = "<group>"; };
+		CE1F440D25B5120500F0F7FE /* findDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDate.swift; sourceTree = "<group>"; };
 		CE268CB725AB6B7400EBAF2F /* qrpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrpage.swift; sourceTree = "<group>"; };
 		CE46262325AAA31500505867 /* qrgeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrgeneration.swift; sourceTree = "<group>"; };
 		CE55913225B3EE9D00DCBF94 /* stringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringTest.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				CEA1603725A915CC00E9C956 /* AppDelegate.swift */,
 				CEA1603925A915CC00E9C956 /* SceneDelegate.swift */,
 				CE46262325AAA31500505867 /* qrgeneration.swift */,
+				CE1F440A25B50CE200F0F7FE /* dateDisplay.swift */,
+				CE1F440D25B5120500F0F7FE /* findDate.swift */,
 				CEA1603B25A915CC00E9C956 /* ContentView.swift */,
 				CE55913225B3EE9D00DCBF94 /* stringTest.swift */,
 				CEB3489325AA1E9C00E6AEBA /* ConditionsView.swift */,
@@ -174,6 +180,8 @@
 				CEA1603825A915CC00E9C956 /* AppDelegate.swift in Sources */,
 				CEB3489425AA1E9C00E6AEBA /* ConditionsView.swift in Sources */,
 				CE68F7CA25B2256000C60DA8 /* SwiftUIView.swift in Sources */,
+				CE1F440B25B50CE200F0F7FE /* dateDisplay.swift in Sources */,
+				CE1F440E25B5120500F0F7FE /* findDate.swift in Sources */,
 				CE68F7CE25B232FA00C60DA8 /* GlobalVariables.swift in Sources */,
 				CEB3489725AA773000E6AEBA /* SendResults.swift in Sources */,
 				CE0BED3C25A94DB10041D804 /* ButtonStyles.swift in Sources */,

@@ -34,11 +34,12 @@ struct ContentView: View {
                     .fontWeight(.heavy)
                     .multilineTextAlignment(.center)
                 
+                dateDisplay()
                   Spacer()
                 
-                ButtonView(displayedUse: "Yes To One Or More", execution: "Symptoms Or Contact")
+                ButtonView(displayedUse: "Yes To One Or More", execution: "0")
                 
-                ButtonView(displayedUse: "No To Everything", execution: "No Symptoms Or Contact")
+                ButtonView(displayedUse: "No To Everything", execution: "1")
                 
                     Spacer()
            
